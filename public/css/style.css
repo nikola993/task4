@@ -1,0 +1,118 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    background: transparent;
+}
+
+html {
+    overflow-x: hidden;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+}
+
+/* remember to define focus styles! */
+:focus {
+    outline: 0;
+}
+form {padding:0; margin:0;}
+/* remember to highlight inserts somehow! */
+ins {
+    text-decoration: none;
+}
+del {
+    text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+:root {
+    display: block;
+}
+.button {
+    background: #ff0000;
+    background-image: -webkit-linear-gradient(top, #ff0000, #2b2020);
+    background-image: -moz-linear-gradient(top, #ff0000, #2b2020);
+    background-image: -ms-linear-gradient(top, #ff0000, #2b2020);
+    background-image: -o-linear-gradient(top, #ff0000, #2b2020);
+    background-image: linear-gradient(to bottom, #ff0000, #2b2020);
+    border-radius: 28px;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    display: block;
+    width: 100px;
+    text-align: center;
+    float: left;
+    margin-left: 10px;
+    cursor: default;
+}
+.button:hover {
+    background: #ff0000;
+    background-image: -webkit-linear-gradient(top, #ff0000, #ff0000);
+    background-image: -moz-linear-gradient(top, #ff0000, #ff0000);
+    background-image: -ms-linear-gradient(top, #ff0000, #ff0000);
+    background-image: -o-linear-gradient(top, #ff0000, #ff0000);
+    background-image: linear-gradient(to bottom, #ff0000, #ff0000);
+    text-decoration: none;
+}
+form {
+    height: 200px;
+    width: 700px;
+    border: double black 3px;
+    margin: auto;
+    border-bottom: 8px solid #500000;
+    position: relative;
+}
+h2{
+    padding-top: 20px;
+    color: #a80900;
+    padding-left: 1%;
+}
+.sender{
+    padding-left: 7px;
+    float: left;
+}
+.date {
+    float: right;
+    padding-right: 9px;
+}
+#wrap_btn{
+    position:absolute;
+    bottom:10px;
+    right:10px;
+}
+textarea{
+    padding-top: 10px;
+    width: 96%;
+    height: 40%;
+    margin-left: 1%;
+    background-color: white;
+}
+.as{
+    width: 300px;
+    height: 300px;
+    background-color: #a80900;
+}
